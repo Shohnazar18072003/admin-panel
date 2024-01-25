@@ -1,0 +1,42 @@
+.admin-logo {
+  padding: 24px;
+  color: white;
+  font-size: 20px;
+
+}
+.admin-aside{
+   height: 100vh;
+}
+
+.admin-main{
+   height: calc(100vh - 64px);
+   overflow: auto;
+}
+
+.admin-header{
+   background-color: #001529 !important;
+   svg{
+      fill: white;
+   }
+}
+
+.logout_btn {
+   padding: 0;
+   font-size: 15px;
+   margin-left: -5px;
+   width: 100%;
+   text-align: left;
+   border-radius: 10px;
+   background-color: transparent;
+   color: rgba(255, 255, 255, 0.65);
+   align-items: center;
+   font-family: "Mulish", sans-serif;
+ 
+   img {
+     margin-right: 20px;
+   }
+ }
+ 
+ .logout_btn:hover {
+   color: red !important;
+ }
