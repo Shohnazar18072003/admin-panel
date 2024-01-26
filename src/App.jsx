@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import LayoutAdmin from "./components/layout";
-import DashboardPage from "./pages/DashboardPage";
-import LoginPage from "./pages/LoginPage";
-import NotFound from "./pages/NotFound";
-import StudentPage from "./pages/StudentPage";
-import TeacherPage from "./pages/TeacherPage";
+import DashboardPage from "./pages/DashboardPage/DashboardPage";
+import LoginPage from "./pages/LoginPage/LoginPage";
+import NotFound from "./pages/NotFound/NotFound";
+import StudentPage from "./pages/StudentPage/StudentPage";
+import TeacherPage from "./pages/TeacherPage/TeacherPage";
 import TeachersStudent from "./pages/TeachersStudent";
 import ProfilePage from "./pages/ProfilePage/ProfilePage";
 

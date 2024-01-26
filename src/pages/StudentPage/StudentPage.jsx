@@ -12,7 +12,7 @@ import {
 } from "antd";
 import Search from "antd/es/input/Search";
 import { Fragment, useCallback, useEffect, useState } from "react";
-import request from "../server";
+import request from "../../server";
 
 const StudentsPage = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);

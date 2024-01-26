@@ -1,7 +1,7 @@
 import { Button, Checkbox, Flex, Form, Input, message } from "antd";
 import PropTypes from "prop-types";
 import {useNavigate } from "react-router-dom";
-import { IS_LOGIN } from "../const";
+import { IS_LOGIN } from "../../const";
 
 import "./Login.scss";
 

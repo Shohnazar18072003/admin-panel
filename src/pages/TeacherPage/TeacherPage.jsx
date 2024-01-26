@@ -15,8 +15,8 @@ import { useEffect, useState } from "react";
 import { useCallback } from "react";
 import { Fragment } from "react";
 import { Link } from "react-router-dom";
-import { LIMIT } from "../const";
-import request from "../server";
+import { LIMIT } from "../../const";
+import request from "../../server";
 
 const TeacherPage = () => {
   const [data, setData] = useState([]);
