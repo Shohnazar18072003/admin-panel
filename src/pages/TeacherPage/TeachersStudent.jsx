@@ -1,7 +1,7 @@
 import { Fragment, useCallback, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { LIMIT } from "../const";
-import request from "../server";
+import { LIMIT } from "../../const";
+import request from "../../server";
 import {
    Button,
    Checkbox,

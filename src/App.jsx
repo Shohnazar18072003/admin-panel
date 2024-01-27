@@ -6,7 +6,7 @@ import LoginPage from "./pages/LoginPage/LoginPage";
 import NotFound from "./pages/NotFound/NotFound";
 import StudentPage from "./pages/StudentPage/StudentPage";
 import TeacherPage from "./pages/TeacherPage/TeacherPage";
-import TeachersStudent from "./pages/TeachersStudent";
+import TeachersStudent from "./pages/TeacherPage/TeachersStudent";
 import ProfilePage from "./pages/ProfilePage/ProfilePage";
 
 function App() {
